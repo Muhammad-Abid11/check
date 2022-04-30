@@ -65,3 +65,18 @@
     /* < !-- ----------BreakPoint-------Start-----------x---------------------- -->.*/
 
 
+    /* < !-- ----------Play with grid -----Start-------------x---------------------- --> */
+
+
+.childs1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.childs2{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+
