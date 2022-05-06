@@ -151,3 +151,21 @@ setTimeout(function () {
 
 /* < !-- ----------Search Large number-----End-------------x---------------------- -->.*/
 
+/* < !-- ----------Play with div onclick -----start-------------x---------------------- --> */
+
+
+
+// let div,
+//     container = document.getElementById('container')
+// for (let i = 0; i < 5; i++) {
+//     div = document.createElement('div')
+//     div.onclick = () => {
+//         alert('This is box #' + i)
+//     }
+//     container.appendChild(div)
+// }
+
+
+
+
+/* < !-- ----------Play with div onclick -----end-------------x---------------------- --> */

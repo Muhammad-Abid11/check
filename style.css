@@ -67,7 +67,7 @@
 
     /* < !-- ----------Play with grid -----Start-------------x---------------------- --> */
 
-
+/* 
 .childs1{
     background-color: blue;
     width: 200px;
@@ -78,5 +78,26 @@
     background-color: brown;
     width: 200px;
     height: 200px;
+} */
+
+
+        /* < !-- ----------Play with grid -----end-------------x---------------------- --> */
+
+
+
+                /* < !-- ----------Play with div onclick -----end-------------x---------------------- --> */
+
+/* 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid #f00;
+
 }
 
+p {
+    display: flex
+} */
+
+                                /* < !-- ----------Play with div onclick -----end-------------x---------------------- --> */
