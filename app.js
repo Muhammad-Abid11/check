@@ -169,3 +169,63 @@ setTimeout(function () {
 
 
 /* < !-- ----------Play with div onclick -----end-------------x---------------------- --> */
+
+
+
+
+/* < !-- ----------React if new logic and arrow function -----Start-------------x---------------------- --> */
+
+
+// /* var lordify = function(firstName, land) {
+
+//  if (!firstName) {
+//  throw new Error('A firstName is required to lordify')
+//  }
+
+//  if (!land) {
+//  throw new Error('A lord must have a land')
+//  }
+
+//  return `${firstName} of ${land}`
+// } */
+// // New
+// var lordify = (firstName, land) => {
+
+//     if (!firstName) {
+//         throw new Error('A firstName is required to lordify')
+//     }
+
+//     if (!land) {
+//         throw new Error('A lord must have a land')
+//     }
+
+//     return `${firstName} of ${land}`
+// }
+
+
+// console.log(lordify("", "Pak"));    //if 1 value pass it provide error
+
+
+
+/* < !-- ----------React if new logic and arrow function -----end-------------x---------------------- --> */
+
+
+
+
+/* < !-- ----------scope of normal/arrow function -----start book 28-------------x---------------------- --> */
+
+
+                    // // must read
+
+// var tahoe = {
+//     resorts: ["Kirkwood", "Squaw", "Alpine", "Heavenly", "Northstar"],
+//     print: function () {
+//         setTimeout(() => {
+//             console.log(this.resorts.join())
+//         }, 1000)
+//     }
+// }
+// tahoe.print()
+
+
+/* < !-- ----------scope of normal/arrow function -----end book 28-------------x---------------------- --> */
