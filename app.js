@@ -215,7 +215,7 @@ setTimeout(function () {
 /* < !-- ----------scope of normal/arrow function -----start book 28-------------x---------------------- --> */
 
 
-                    // // must read
+// // must read
 
 // var tahoe = {
 //     resorts: ["Kirkwood", "Squaw", "Alpine", "Heavenly", "Northstar"],
@@ -229,3 +229,14 @@ setTimeout(function () {
 
 
 /* < !-- ----------scope of normal/arrow function -----end book 28-------------x---------------------- --> */
+
+
+
+/* < !-- ----------Maths.min() -----start book 28-------------x---------------------- --> */
+
+// console.log(Math.min(2, 3, 1))    //1
+// console.log(Math.min(-2, -3, -1)) //-3
+// const array1 = [9, 3, 5,]
+// console.log(Math.min(...array1)) //3
+
+/* < !-- ----------Maths.min() -----start book 28-------------x---------------------- --> */
