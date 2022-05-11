@@ -302,7 +302,61 @@ setTimeout(function () {
 
 /* < !-- ----------ternary operator (if else)  -----start-------------x---------------------- --> */
 
-var age = 26;
-var beverage = (age >= 21) ? "Beer" : "Juice";
-console.log(beverage)
+// var age = 26;
+// var beverage = (age >= 21) ? "Beer" : "Juice";
+// console.log(beverage)
+
 /* < !-- ----------ternary operator (if else)  -----end-------------x---------------------- --> */
+
+
+/* < !-- ----------Classes ES6 Book#40  -----Start-------------x---------------------- --> */
+
+
+// class Claas1 {
+//     constructor(destination, length) {
+//         this.destination = destination
+//         this.length = length
+//     }
+//     print() {
+//         console.log(this.destination + " | " + this.length + " days")
+//     }
+// }
+// var maui = new Claas1("Claas1 Mauia", 1);
+// maui.print();
+
+// //class1 and class2 both are consturctors
+// //class2 use some property of class1 by using keyword
+// //  1extends    super()
+
+// class Claas2 extends Claas1 {
+
+//     constructor(destination, length, array) {
+//         super(destination, length)
+//         this.array = array
+//     }
+
+//     print() {
+//         super.print()
+//         console.log(`Your new Claaas 2 array is ${this.array}`)
+//     }
+// }
+
+// var Claas3 = new Claas2("Claas2", 2, [2, 4, 6]);
+// Claas3.print();
+
+
+/* < !-- ----------Classes ES6 Book#40  -----End-------------x---------------------- --> */
+
+
+/* < !-- ----------Function in Object Book#46  -----Start-------------x---------------------- --> */
+
+// const obj = {
+//     message: "They can be added to objects like variables",
+//     loge(message) {
+//         console.log(message)
+//     }
+// }
+// obj.loge(obj.message)
+
+
+/* < !-- ----------Function in Object Book#46  -----End-------------x---------------------- --> */
