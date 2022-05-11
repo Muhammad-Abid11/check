@@ -244,7 +244,7 @@ setTimeout(function () {
 
 
 /* < !-- ----------For in  -----start from Net-------------x---------------------- --> */
-    //  it work for object 
+//  it work for object 
 
 // const object = { a: 1, b: 2, c: 3 };
 
@@ -267,7 +267,7 @@ setTimeout(function () {
 
 /* < !-- ----------For in  -----End-------------x---------------------- --> */
 
-/* < !-- ----------For Of  -----End-------------x---------------------- --> */
+/* < !-- ----------For Of  -----start-------------x---------------------- --> */
 
 // const array1 = ['a', 'b', 'c'];
 
@@ -276,3 +276,25 @@ setTimeout(function () {
 // }
 
 /* < !-- ----------For Of  -----End-------------x---------------------- --> */
+
+/* < !-- ----------spread opeator ...  -----start-------------x---------------------- --> */
+
+function sum(x, y, z) {
+    return x + y + z;
+}
+
+const numbers = [1, 2, 3];
+
+console.log(numbers);     // array
+
+console.log(...numbers)     //array value
+
+console.log(sum(...numbers));   // array values pass
+
+// expected output: 6
+
+console.log(sum.apply(null, numbers));
+// expected output: 6
+
+
+/* < !-- ----------spread opeator ...  -----end-------------x---------------------- --> */
