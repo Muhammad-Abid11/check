@@ -240,3 +240,22 @@ setTimeout(function () {
 // console.log(Math.min(...array1)) //3
 
 /* < !-- ----------Maths.min() -----start book 28-------------x---------------------- --> */
+
+
+
+/* < !-- ----------For in  -----start from Net-------------x---------------------- --> */
+    //  it work for object 
+
+// const object = { a: 1, b: 2, c: 3 };
+
+// for (let props in object) {
+//     console.log(`${props}: ${object[props]}`);
+// }
+
+// expected output:
+// "a: 1"
+// "b: 2"
+// "c: 3"
+
+
+/* < !-- ----------For in  -----End-------------x---------------------- --> */
