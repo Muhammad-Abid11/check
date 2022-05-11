@@ -244,7 +244,7 @@ setTimeout(function () {
 
 
 /* < !-- ----------For in  -----start from Net-------------x---------------------- --> */
-//  it work for object 
+//  it work for object
 
 // const object = { a: 1, b: 2, c: 3 };
 
@@ -279,22 +279,30 @@ setTimeout(function () {
 
 /* < !-- ----------spread opeator ...  -----start-------------x---------------------- --> */
 
-function sum(x, y, z) {
-    return x + y + z;
-}
+// function sum(x, y, z) {
+//     return x + y + z;
+// }
 
-const numbers = [1, 2, 3];
+// const numbers = [1, 2, 3];
 
-console.log(numbers);     // array
+// console.log(numbers);     // array
 
-console.log(...numbers)     //array value
+// console.log(...numbers)     //array value
 
-console.log(sum(...numbers));   // array values pass
+// console.log(sum(...numbers));   // array values pass
 
-// expected output: 6
+// // expected output: 6
 
-console.log(sum.apply(null, numbers));
-// expected output: 6
+// console.log(sum.apply(null, numbers));
+// // expected output: 6
 
 
 /* < !-- ----------spread opeator ...  -----end-------------x---------------------- --> */
+
+
+/* < !-- ----------ternary operator (if else)  -----start-------------x---------------------- --> */
+
+var age = 26;
+var beverage = (age >= 21) ? "Beer" : "Juice";
+console.log(beverage)
+/* < !-- ----------ternary operator (if else)  -----end-------------x---------------------- --> */
