@@ -258,4 +258,11 @@ setTimeout(function () {
 // "c: 3"
 
 
+// let string = "code";
+
+// for (let i in string) {
+//     console.log(`${i} ${string[i]}`);
+// }
+
+
 /* < !-- ----------For in  -----End-------------x---------------------- --> */
