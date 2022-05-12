@@ -113,7 +113,28 @@ setTimeout(function () {
 // setTimeout(() => clearInterval(stopTimer), 5000) //arrowfucntion
 
 
-*/
+//  Difference Between Let and Var
+
+*/  
+
+
+/*for (var i=0;i<3;i++)
+  {
+    setTimeout(()=>{
+      console.log("var ",i)
+    },0.1)
+  }
+
+for (let j=0;j<3;j++)
+  {
+    setTimeout(()=>{
+      console.log(j)
+    },1)
+  } 
+  
+  */
+
+
 
 
 /* < !-- ----------BreakPoint-----Start-------------x---------------------- -->.*/
